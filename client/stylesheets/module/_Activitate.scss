@@ -1,0 +1,118 @@
+.activitate {
+  .butoane-activitate {
+    button {
+      margin-left: 5px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .coloane {
+      display: flex;
+    }
+    .detalii-container {
+      padding-right: 0px !important;
+      display: flex;
+    }
+    .chat-container {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      display: flex;
+    }
+    .participanti-container {
+      padding-left: 0px !important;
+      display: flex;
+    }
+    .detalii {
+      box-shadow: 4px 1px 5px -1px darken(#3D6599, 5%);
+      position: relative;
+      z-index: 2;
+      flex: 1;
+    }
+    .chat {
+      box-shadow: 4px 1px 5px -1px darken(#3D6599, 5%);
+      position: relative;
+      z-index: 1;
+      flex: 1;
+    }
+    .participanti {
+      flex: 1;
+    }
+  }
+  .detalii {
+    background-color: #3D6599;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+
+    .data-activitate {
+      padding: 20px 10px;
+    }
+    .nume-sport {
+      padding: 10px 10px;
+    }
+    .locuri-participanti {
+      padding: 20px 10px;
+    }
+    .descriere {
+      padding: 20px 10px;
+      background-color: darken(#3D6599, 5%);
+    }
+    .titlu-sectiune {
+      font-weight: 500;
+    }
+  }
+  .chat {
+    background-color: lighten(#3D6599, 10%);
+    padding: 15px;
+
+    .mesaje {
+      color: #fff;
+      overflow: auto;
+      margin-bottom: 110px;
+      height: 440px;
+      .mesaj {
+        border-radius: 3px;
+        padding: 5px;
+        margin-bottom: 5px;
+        background-color: lighten(#3D6599, 20%);
+
+        .data {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .adaugare-mesaj {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+    }
+
+    #formControlsTextarea {
+      margin-bottom: 10px;
+    }
+  }
+  .participanti {
+    background-color: lighten(#3D6599, 15%);
+    padding: 15px;
+
+    .lista-participanti {
+      height: 550px;
+      overflow: auto;
+
+      .data {
+        font-size: 12px;
+      }
+    }
+  }
+  .titlu-main {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .numar-participanti {
+    width: 80px !important;
+  }
+}
+

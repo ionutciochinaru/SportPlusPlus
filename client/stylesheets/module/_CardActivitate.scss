@@ -1,0 +1,26 @@
+.cardEveniment {
+  background-color: #f9f9f9;
+  margin: 5px 0px;
+  padding: 10px;
+}
+.detaliiActivitate {
+  margin: 0px 0px 10px 0px;
+  background: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+}
+.dataActivitate {
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+
+  .fa {
+    margin-right: 5px;
+    color: #1d9a1d;
+  }
+}
+.numeActivitate {
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+  word-wrap: break-word;
+}
